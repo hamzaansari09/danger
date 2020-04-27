@@ -1,7 +1,7 @@
 language: swift
-osx_image: xcode9.3
+osx_image: xcode9
 branches:
   only:
     - master
 script:
-    - xcodebuild clean -project DangerTest.xcodeproj -scheme DangerTest -destination "platform=iOS Simulator,name=iPhone 7,OS=10.3.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+    - xcodebuild clean -project DangerTest.xcodeproj -scheme DangerTest -destination "platform=iOS Simulator,name=iPhone 5,OS=10.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
