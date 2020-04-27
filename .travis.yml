@@ -4,4 +4,4 @@ branches:
   only:
     - master
 script:
-    - xcodebuild clean -project DangerTest.xcodeproj -scheme DangerTest -destination "platform=iOS Simulator,name=iPhone 8,OS=12.1" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+    - xcodebuild clean -project DangerTest.xcodeproj -scheme DangerTest -destination "platform=iOS Simulator,name=iPhone 7,OS=10.3.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
